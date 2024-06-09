@@ -1,8 +1,9 @@
 import React from "react";
 import { IntroBanner } from "../partials/pageBanners";
 import Rosa from "react-on-scroll-animation";
+import SchoolsBanner from "../assets/images/schools-banner.png";
 
-import AdvertImg1 from "../assets/images/advert1Img.jpg";
+
 import OfficeImg from "../assets/images/office3.jpeg";
 import StudentsImg from "../assets/images/students1.jpg";
 const About = () => {
@@ -12,51 +13,60 @@ const About = () => {
       <IntroBanner
         bannerTitle="About"
         bannerTitleYellow="Us"
-        bannerText="All About Aptech Computer Education Ota"
+        bannerText="All About Aptech Computer Education Ikorodu"
       />
 
       {/* Feature 1 */}
-      <section className="mt-20">
-        <div className="max-w-screen-2xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-            <div className="relative z-10 lg:py-16">
-              <div className="relative h-64 sm:h-72 lg:h-full">
-                <img
-                  className="pointer-events-none absolute inset-0 h-full w-full object-cover"
-                  src={AdvertImg1}
-                  alt="Indoors house"
-                />
-              </div>
-            </div>
-
-            <div className="relative flex items-center bg-gray-100">
-              <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100"></span>
-
-              <div className="p-8 sm:p-16 ">
-                <Rosa animation={"fade-down"} once>
-                  <h2 className="text-2xl font-semibold text-aptechRed sm:text-3xl">
-                    About Us
-                  </h2>
-                </Rosa>
-                <p className="mt-4 text-justify text-gray-700">
-                  Aptech Computer Education, Sango Ota, Ogun State came into
-                  being when Avigo Investment acquired the ICT Educational
-                  franchise from Aptech Computer Education, Mumbai India. It was
-                  based on the vision to pass a legacy of ICT training to the up
-                  and coming ICT servy Nigerians and also to develop the next
-                  generation of Nigerians who will continue from the present
-                  generation after more than 25 years’ experience garnered in
-                  the ICT space in the banking institutions, Insurance, Full
-                  Fledged IT companies, etc cutting across Private companies,
-                  corporate organizations, Public and multi-national companies.
-                  Our soul aim was to give something back to the society for the
-                  betterment of ICT in Nigeria.
-                </p>
-              </div>
-            </div>
-          </div>
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+        <div>
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+            Aptech Ikorodu
+          </p>
         </div>
-      </section>
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+          <span className="relative inline-block">
+            <svg
+              viewBox="0 0 52 24"
+              fill="currentColor"
+              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+            >
+              <defs>
+                <pattern
+                  id="679d5905-e08c-4b91-a66c-84aefbb9d2f5"
+                  x="0"
+                  y="0"
+                  width=".135"
+                  height=".30"
+                >
+                  <circle cx="1" cy="1" r=".7" />
+                </pattern>
+              </defs>
+              <rect
+                fill="url(#679d5905-e08c-4b91-a66c-84aefbb9d2f5)"
+                width="52"
+                height="24"
+              />
+            </svg>
+            <span className="relative">Prepare</span>
+          </span>{' '}
+          for your career with digital skills training at Aptech Ikorodu.
+        </h2>
+        <p className="text-base text-gray-700 md:text-lg">
+        Aptech Computer Education, Ikorodu, Lagos State came into being when Avigo Technology Limited acquired the ICT Educational franchise from Aptech Computer Education, Mumbai India. 
+        </p>
+      </div>
+      <div className="mx-auto lg:max-w-2xl">
+        <div className="relative w-full transition-shadow duration-300 hover:shadow-xl">
+          <img
+            className="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96 animate-pulse"
+            src="https://res.cloudinary.com/madflows/image/upload/v1651157237/apcalabar_ibikwf.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+      {/* ========= */}
 
       {/* Feature 2 */}
       <section className="mt-20">
@@ -93,6 +103,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      {/* ========= */}
 
       {/* Feature 3 */}
       <section className="mt-20">
@@ -137,6 +148,17 @@ const About = () => {
           </div>
         </div>
       </section>
+      {/* ============== */}
+      <div className=" mt-20">
+        <h6 className="text-center text-3xl font-medium">
+          In Collaboration with{" "}
+        </h6>
+        <img
+          src={SchoolsBanner}
+          alt="Schools Banner"
+          className="pointer-events-none mx-auto w-fit"
+        />
+      </div>
     </div>
   );
 };

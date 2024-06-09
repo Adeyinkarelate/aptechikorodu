@@ -79,23 +79,21 @@ const Home = () => {
   return (
     <div className="sm:mt-14">
       {/* Carousel */}
-      <header className="h-full  bg-[#efd9db]">
-        <div className="mx-auto px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:pt-8">
+      <header className="h-full  bg-[#efd9db] py-20 sm:py-18 mb-10">
+        <div className="mx-auto px-4 pt-4 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:pt-8">
           <div className="grid gap-10 lg:grid-cols-2">
             <div className="flex flex-col justify-center md:pr-8 lg:max-w-lg xl:pr-0">
               <div className="mb-6 max-w-xl">
-                <h2 className="font-sans mb-6 max-w-lg text-3xl font-bold tracking-tight text-[#a03537] sm:text-4xl sm:leading-none">
-                  Embrace The Latest
-                  <span className="text-deep-purple-accent-400 inline-block">
-                    I.T Technology
+                <h2 className="font-sans mb-6 max-w-lg text-5xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none">
+                  Kick Start Your IT career 
+                  <span className="text-my_dark inline-block animate-pulse">
+                    @Aptech Ikorodu
                   </span>
                 </h2>
                 <p className="text-justify text-base text-gray-700 md:text-lg">
                   Students get dual-diploma which is valued by employers and
                   universities as well. With over 32 years of expertise in IT
-                  training, Aptech is sure to build careers. Additionally with
-                  40 years of presence, NCC Education, UK offers the valuable
-                  qualifications which is recognized globally.
+                  training.
                 </p>
               </div>
               <div>
@@ -139,16 +137,10 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#efd9db"
-          fill-opacity="1"
-          d="M0,256L80,218.7C160,181,320,107,480,90.7C640,75,800,117,960,144C1120,171,1280,181,1360,186.7L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-        ></path>
-      </svg>
+      
       {/* ========================INTERNATIONAL DEGREE===================================== */}
-      <section>
-        <div className="mx-auto px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-8">
+      <section className="mt-8">
+        <div className="mx-auto px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-22 my-10">
           <div className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
             <div></div>
             <h2 className="font-sans mb-6  items-center text-center text-3xl font-bold leading-none tracking-tight text-gray-900 ">
@@ -269,7 +261,6 @@ const Home = () => {
         </div>
       </section>
       {/* Why Choose Us =============================================================================================*/}
-      `{" "}
       <div className="mx-auto px-4 py-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-8">
         <div className="row-gap-8 grid gap-12 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
@@ -340,7 +331,7 @@ const Home = () => {
         </div>
       </div>
       {/* Popular Courses */}
-      <section className="mt-12 text-gray-900">
+      <section className="mt-8 text-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
           <Rosa animation={"fade-up"} once>
             <div className="mx-auto max-w-lg text-center">

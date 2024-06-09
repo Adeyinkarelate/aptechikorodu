@@ -16,6 +16,8 @@ module.exports = {
     colors: {
       aptechRed: "#AD1E22",
       aptechOrange: "#ddac26",
+      my_light: "#efd9db ",
+      my_dark:"#ad1b1e"
     },
     fontFamily: {
       cambay: ["Cambay", "sans-serif"],
