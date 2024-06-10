@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 import Rosa from "react-on-scroll-animation";
 
 import coursesAcnsImg from "../assets/images/course-acns.jpg";
+import Ikorodu from "../assets/images/Ikorodu.png";
 import coursesAdseImg from "../assets/images/course-adse.jpg";
 import coursesSmartProImg from "../assets/images/course-smartpro.jpg";
 import SchoolsBanner from "../assets/images/schools-banner.png";
 import Testimonials from "../partials/Testimonials";
+
+
 
 
 
@@ -140,6 +143,7 @@ const Home = () => {
       
       {/* ========================INTERNATIONAL DEGREE===================================== */}
       <section className="mt-8">
+      <Rosa animation={"fade-up"} once>
         <div className="mx-auto px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-22 my-10">
           <div className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
             <div></div>
@@ -178,6 +182,7 @@ const Home = () => {
             </p>
           </div>
         </div>
+        </Rosa>
         {/* the image */}
         <div className="mx-auto px-4 pb-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:pb-8">
           <div className="row-gap-5 sm:row-gap-6 mb-8 grid gap-6 sm:grid-cols-2 sm:px-4 lg:grid-cols-4">
@@ -265,9 +270,11 @@ const Home = () => {
         <div className="row-gap-8 grid gap-12 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="mb-6 max-w-xl">
+            <Rosa animation={"fade-up"} once>
               <h2 className="font-sans mb-6 max-w-lg text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none text-center item-center md:items-start md:text-start">
               APTECH IKORODU- A GLOBAL LEARNING SOLUTIONS PROVIDER
               </h2>
+              </Rosa>
               <p className="text-base text-gray-700 md:text-lg text-center item-center md:items-start md:text-start">
               Are you considering a new career path or you are looking at adding a skill? Let's help you in your decision making and give options on how to reboot your career journey for success.
               </p>
@@ -323,9 +330,9 @@ const Home = () => {
           </div>
           <div>
             <img
-              className="h-56 w-full rounded object-cover shadow-lg sm:h-96"
-              src="https://www.aptechglobaltraining.com/campaign/nigeria/degree/images/slider-1-person-1.png"
-              alt=""
+              className=" w-full rounded shadow-lg sm:h-96  object-cover md:object-fill md:h-auto"
+              src={Ikorodu}
+              alt="aptech ikorodu"
             />
           </div>
         </div>

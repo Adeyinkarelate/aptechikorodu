@@ -85,14 +85,6 @@ const Footer = () => {
                 </Link>
                 <Link
                   className="transition hover:text-white hover:underline hover:underline-offset-2"
-                  to="/gallery"
-                  reloadDocument
-                >
-                  {" "}
-                  Gallery{" "}
-                </Link>
-                <Link
-                  className="transition hover:text-white hover:underline hover:underline-offset-2"
                   to="/courses"
                   reloadDocument
                 >
@@ -116,8 +108,7 @@ const Footer = () => {
               <nav className="mt-4 flex flex-col space-y-2 text-md text-gray-300">
                 <p className="transition">
                   {" "}
-                  No 1, Joju bustop, ogbohu plaza, beside Gt bank, Ota ,Ogun
-                  state , Nigeria
+                  1st Floor, 70 Lagos Road, (Benson Bus-Stop), Ikorodu, Lagos State.
                 </p>
               </nav>
             </div>
@@ -137,10 +128,10 @@ const Footer = () => {
                 <div>
                   <span className="font-bold">Telephone:</span> <br />
                   <a className="transition" href="tel:+2348137309622">
-                    +234 (0)813 730 9622 <br />
+                    +234 7077630151 <br />  
                   </a>
                   <a className="transition" href="tel:+2348107146343">
-                    +234 (0)810 714 6343{" "}
+                    +234 8121175496{" "}
                   </a>
                 </div>
                 <div className="transition">
@@ -155,7 +146,7 @@ const Footer = () => {
 
         <div className="mt-8 border-t border-white/10 pt-3">
           <p className="text-center text-xs leading-relaxed text-gray-300">
-            © Aptech Ota <span>{currentYear}</span>. All rights reserved.
+            © Aptech Ikorodu <span>{currentYear}</span>. All rights reserved.
             <br />
           </p>
         </div>

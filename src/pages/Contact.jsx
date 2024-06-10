@@ -111,7 +111,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                +234(0)-808-463-6061
+                +234 7077630151, +234 8121175496
               </a>
             </div>
           </div>
