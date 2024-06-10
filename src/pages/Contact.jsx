@@ -72,12 +72,12 @@ const Contact = () => {
               </p>
 
               <a
-                href="mailto:aptech.ota@gmail.com"
+                href="mailto:aptechikoroducentre@gmail.com"
                 className="text-sm font-bold text-aptechRed transition-all hover:underline"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                aptech.ota@gmail.com
+                aptechikoroducentre@gmail.com
               </a>
             </div>
           </div>
