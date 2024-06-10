@@ -17,11 +17,11 @@ const Contact = () => {
     const formAlert = document.getElementById("form-alert");
     const closeAlert = document.getElementById("close-form-alert");
     sendBtn.innerHTML = "Submitting ...";
-    const serviceID = "service_x26v6rc";
-    const templateID = "template_qvq91or";
+    const serviceID = "service_vm6hd8s";
+    const templateID = "template_qe88wpk";
 
     emailjs
-      .sendForm(serviceID, templateID, form.current, "MJDjpuOmrTo581Td0")
+      .sendForm(serviceID, templateID, form.current, "rOOUKYgWk3NQJv1FX")
       .then(
         (result) => {
           formAlert.style.display = "flex";
@@ -142,7 +142,7 @@ const Contact = () => {
 
               <dl className="mx-auto mt-8 flex w-4/6 items-center justify-center space-x-6 text-xs">
                 <a
-                  href="https://twitter.com/AptechOtaEdu"
+                  href="/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="sm:inline-flex sm:shrink-0 sm:items-center"
@@ -160,7 +160,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/message/5QKXQWL773YJA1"
+                  href="/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="sm:inline-flex sm:shrink-0 sm:items-center"
@@ -178,15 +178,7 @@ const Contact = () => {
         <div className="mx-auto grid w-11/12 grid-cols-1 gap-4 gap-y-12 md:w-10/12 md:grid-cols-2">
           {/* Google Map */}
           <div className="">
-            <iframe
-              title="Aptech Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.498230204673!2d3.2357156174438475!3d6.708883700000011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b995b41b7dd6d%3A0xb6c08985374e0e09!2sAptech%20Computer%20Education%20-Sango%20Ota!5e0!3m2!1sen!2sng!4v1656412993623!5m2!1sen!2sng"
-              className="h-[70vh] w-full md:h-full"
-              style={{ border: "0" }}
-              allowFullScreen={true}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <iframe title="Aptech Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.294971035248!2d3.512089374993709!3d6.6102233933837935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bee8993a73fdb%3A0x944d19a2b69d8c64!2s1st%20Floor%2C%2070%20Lagos%20Rd%2C%20Ikorodu%2C%20Lagos%20104101%2C%20Lagos!5e0!3m2!1sen!2sng!4v1718047952457!5m2!1sen!2sng"  style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className="h-[70vh] w-full md:h-full" allowFullScreen={true}></iframe>
           </div>
 
           {/* Contact Form */}
