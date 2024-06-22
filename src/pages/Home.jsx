@@ -78,7 +78,7 @@ const Home = () => {
   return (
     <div className="sm:mt-14 ">
       {/* Carousel */}
-      <header className="h-[650px] mt-10">
+      <header className="mt-10 h-[650px]">
         <div class="relative flex flex-col-reverse py-16 lg:flex-col lg:pt-0 lg:pb-0 ">
           <div class="inset-y-0 top-0 right-0 z-0 mx-auto w-full max-w-xl px-4 md:px-0 lg:absolute lg:mx-0 lg:mb-0 lg:w-7/12 lg:max-w-full lg:pr-0 xl:px-0 ">
             <svg
@@ -97,11 +97,11 @@ const Home = () => {
           </div>
           <div class="relative mx-auto flex w-full max-w-xl flex-col items-center px-4 md:items-start md:px-0 lg:max-w-screen-xl lg:px-8">
             <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-              <p class="mb-4  rounded-full px-3 py-px text-md  font-bold uppercase tracking-wider text-aptechRed text-center md:text-start">
+              <p class="mb-4  rounded-full px-3 py-px text-center  text-md font-bold uppercase tracking-wider text-aptechRed md:text-start">
                 Brand new
               </p>
-              <h2 class="font-sans items-center pb-2 text-center text-4xl font-bold uppercase  tracking-tight text-black sm:leading-none md:items-start md:pt-0 md:text-start">
-              APTECH IKORODU
+              <h2 class="animate__animated animate__fadeInUp font-sans items-center pb-2 text-center text-4xl font-bold uppercase  tracking-tight text-black sm:leading-none md:items-start md:pt-0 md:text-start">
+                APTECH IKORODU
               </h2>
               <div class="mx-auto mb-6 h-1 w-28 bg-aptechOrange md:mx-0"></div>
               <p class=" items-center pr-5 text-center text-base text-gray-700 md:items-start md:text-start md:text-lg">
@@ -111,7 +111,7 @@ const Home = () => {
               </p>
               <div class="flex items-center justify-around gap-4 py-8 text-base md:justify-start md:gap-4">
                 <div class="text-center">
-                  <i class="fa-solid fa-earth-asia py-2 text-4xl text-aptechOrange"></i>
+                  <i class="fa-solid fa-earth-asia py-2 text-4xl text-aptechOrange animate-bounce"></i>
                   <br />
                   Rebrand
                 </div>
@@ -131,7 +131,7 @@ const Home = () => {
               <div class="items-center text-center md:items-start md:text-start">
                 <a
                   href="/about"
-                  class="bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline mr-6 inline-flex h-12 items-center justify-center rounded px-6 font-medium tracking-wide text-white shadow-md transition duration-200 focus:outline-none"
+                  class="focus:shadow-outline mr-6 inline-flex h-12 items-center justify-center rounded bg-black px-6 font-medium tracking-wide text-white shadow-md transition duration-200 hover:bg-gray-700 focus:outline-none"
                 >
                   Learn More
                 </a>
@@ -178,13 +178,12 @@ const Home = () => {
               <p className="items-center text-center text-base text-gray-700">
                 Aptech has alliance with the best international Universities and
                 institutes across the globe to benefit Aptech students.{" "}
-                <a href="/about"> Learn More</a>
               </p>
             </div>
           </div>
         </Rosa>
         {/* the image */}
-        <div className="mx-auto px-4 pb-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:pb-8">
+        <div className="mx-auto px-4  sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:pb-8">
           <div className="row-gap-5 sm:row-gap-6 mb-8 grid gap-6 sm:grid-cols-2 sm:px-4 lg:grid-cols-4">
             <div>
               <div className="relative transform overflow-hidden rounded shadow-lg transition duration-200 hover:-translate-y-2 hover:shadow-2xl">
@@ -251,7 +250,7 @@ const Home = () => {
             <a
               href="/contact"
               aria-label=""
-              className="text-deep-purple-accent-400 hover:text-deep-purple-800 inline-flex items-center font-semibold transition-colors duration-200"
+              className="text-deep-purple-accent-400 hover:text-deep-purple-800 my-6 inline-flex items-center font-semibold transition-colors duration-200"
             >
               Enroll Now
               <svg
@@ -281,22 +280,10 @@ const Home = () => {
                 options on how to reboot your career journey for success.
               </p>
             </div>
-            <div className="row-gap-8 grid gap-8 sm:grid-cols-2">
+            <div className="row-gap-8 grid items-center gap-8 text-center sm:grid-cols-2 md:items-start md:text-start">
               <div>
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#a02025]">
-                  <svg
-                    className="h-10 w-10 text-white"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                <div className="items-center text-center md:items-start md:text-start">
+                  <i class="fa-solid fa-graduation-cap my-4 text-4xl text-aptechRed"></i>
                 </div>
                 <h6 className="mb-2 font-semibold leading-5">
                   Students get Advanced Diploma in Software Engineering (ADSE)
@@ -308,20 +295,8 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <div className="text-whte mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#a02025]">
-                  <svg
-                    className="h-10  w-10 text-white"
-                    stroke="currentColor"
-                    viewBox="0 0 52 52"
-                  >
-                    <polygon
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      fill="none"
-                      points="29 13 14 29 25 29 23 39 38 23 27 23"
-                    />
-                  </svg>
+                <div className="items-center text-center md:items-start md:text-start">
+                  <i class="fa-brands fa-readme my-4 text-4xl text-aptechRed"></i>
                 </div>
                 <h6 className="mb-2 font-semibold leading-5">
                   Online varsity is an exclusive e-learning portal

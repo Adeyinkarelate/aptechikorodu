@@ -2,6 +2,7 @@ import React from "react";
 import { IntroBanner } from "../partials/pageBanners";
 import Rosa from "react-on-scroll-animation";
 import SchoolsBanner from "../assets/images/schools-banner.png";
+import IkoroduL from "../assets/images/ikorodul.jpg"
 
 
 import OfficeImg from "../assets/images/office3.jpeg";
@@ -17,10 +18,10 @@ const About = () => {
       />
 
       {/* Feature 1 */}
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl  lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-aptechRed uppercase rounded-full bg-teal-accent-400">
             Aptech Ikorodu
           </p>
         </div>
@@ -59,8 +60,8 @@ const About = () => {
       <div className="mx-auto lg:max-w-2xl">
         <div className="relative w-full transition-shadow duration-300 hover:shadow-xl">
           <img
-            className="object-cover w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96 animate-pulse"
-            src="https://res.cloudinary.com/madflows/image/upload/v1651157237/apcalabar_ibikwf.jpg"
+            className="object-cover w-full  rounded shadow-lg h-64 md:h-80 lg:h-96 animate-pulse"
+            src={IkoroduL}
             alt=""
           />
         </div>
@@ -135,7 +136,7 @@ const About = () => {
                 students/graduates from other elite Universities.
               </p>
               <p className="mt-2 text-justify text-gray-700">
-                Aptech Computer Education, Ota have alliance with Middlesex
+                Aptech Computer Education, Ikorodu have alliance with Middlesex
                 University as well as Portsmouth University, London, United
                 Kingdom. To expatiate further, our students after 24 months
                 programme in Advanced Diploma in Software Engineering (ADSE)
