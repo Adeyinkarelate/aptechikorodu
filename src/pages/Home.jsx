@@ -10,10 +10,6 @@ import coursesSmartProImg from "../assets/images/course-smartpro.jpg";
 import SchoolsBanner from "../assets/images/schools-banner.png";
 import Testimonials from "../partials/Testimonials";
 
-
-
-
-
 const popularCourses = [
   {
     id: 1,
@@ -80,108 +76,112 @@ export const events = [
 
 const Home = () => {
   return (
-    <div className="sm:mt-14">
+    <div className="sm:mt-14 ">
       {/* Carousel */}
-      <header className="h-full  bg-[#efd9db] py-20 sm:py-18 mb-10">
-        <div className="mx-auto px-4 pt-4 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:pt-8">
-          <div className="grid gap-10 lg:grid-cols-2">
-            <div className="flex flex-col justify-center md:pr-8 lg:max-w-lg xl:pr-0">
-              <div className="mb-6 max-w-xl">
-                <h2 className="font-sans mb-6 max-w-lg text-5xl font-bold tracking-tight text-black sm:text-4xl sm:leading-none">
-                  Kick Start Your IT career 
-                  <span className="text-my_dark inline-block animate-pulse">
-                    @Aptech Ikorodu
-                  </span>
-                </h2>
-                <p className="text-justify text-base text-gray-700 md:text-lg">
-                  Students get dual-diploma which is valued by employers and
-                  universities as well. With over 32 years of expertise in IT
-                  training.
-                </p>
+      <header className="h-[650px] mt-10">
+        <div class="relative flex flex-col-reverse py-16 lg:flex-col lg:pt-0 lg:pb-0 ">
+          <div class="inset-y-0 top-0 right-0 z-0 mx-auto w-full max-w-xl px-4 md:px-0 lg:absolute lg:mx-0 lg:mb-0 lg:w-7/12 lg:max-w-full lg:pr-0 xl:px-0 ">
+            <svg
+              class="absolute left-0 hidden h-full -translate-x-1/2 transform text-white lg:block"
+              viewBox="0 0 100 100"
+              fill="currentColor"
+              preserveAspectRatio="none slice"
+            >
+              <path d="M50 0H100L50 100H0L50 0Z"></path>
+            </svg>
+            <img
+              class="h-full w-full rounded object-cover shadow-lg lg:h-full lg:rounded-none lg:shadow-none "
+              src="http://localhost:3000/static/media/Ikorodu.7330b04809f2179b3ea5.png"
+              alt=""
+            />
+          </div>
+          <div class="relative mx-auto flex w-full max-w-xl flex-col items-center px-4 md:items-start md:px-0 lg:max-w-screen-xl lg:px-8">
+            <div class="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+              <p class="mb-4  rounded-full px-3 py-px text-md  font-bold uppercase tracking-wider text-aptechRed text-center md:text-start">
+                Brand new
+              </p>
+              <h2 class="font-sans items-center pb-2 text-center text-4xl font-bold uppercase  tracking-tight text-black sm:leading-none md:items-start md:pt-0 md:text-start">
+              APTECH IKORODU
+              </h2>
+              <div class="mx-auto mb-6 h-1 w-28 bg-aptechOrange md:mx-0"></div>
+              <p class=" items-center pr-5 text-center text-base text-gray-700 md:items-start md:text-start md:text-lg">
+                At Aptech Ikorodu, we have rebranded for enhanced efficiency and
+                effectiveness. Students can earn a dual diploma, highly valued
+                by both employers and universities.
+              </p>
+              <div class="flex items-center justify-around gap-4 py-8 text-base md:justify-start md:gap-4">
+                <div class="text-center">
+                  <i class="fa-solid fa-earth-asia py-2 text-4xl text-aptechOrange"></i>
+                  <br />
+                  Rebrand
+                </div>
+
+                <div class="text-center">
+                  <i class="fa-solid fa-droplet py-2 text-4xl text-aptechOrange"></i>
+                  <br />
+                  Effectiveness
+                </div>
+
+                <div class="text-center">
+                  <i class="fa-solid fa-business-time py-2 text-4xl text-aptechOrange"></i>
+                  <br />
+                  Efficency
+                </div>
               </div>
-              <div>
+              <div class="items-center text-center md:items-start md:text-start">
                 <a
                   href="/about"
-                  aria-label=""
-                  className="text-deep-purple-accent-400 hover:text-deep-purple-800 inline-flex items-center font-semibold transition-colors duration-200"
+                  class="bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline mr-6 inline-flex h-12 items-center justify-center rounded px-6 font-medium tracking-wide text-white shadow-md transition duration-200 focus:outline-none"
                 >
-                  Learn more
-                  <svg
-                    className="ml-2 inline-block w-3"
-                    fill="currentColor"
-                    viewBox="0 0 12 12"
-                  >
-                    <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-                  </svg>
+                  Learn More
                 </a>
-              </div>
-            </div>
-            <div className="-mx-4 flex items-center justify-center lg:pl-8">
-              <div className="flex flex-col items-end px-3">
-                <img
-                  className="mb-6 h-28 w-28 rounded object-cover shadow-lg sm:h-48 sm:w-48 xl:h-56 xl:w-56"
-                  src="https://www.aptechglobaltraining.com/campaign/nigeria/degree/images/course-category-1-4.png"
-                  alt=""
-                />
-                <img
-                  className="duration-400 h-20 w-20 animate-pulse rounded object-cover shadow-lg ease-out sm:h-32 sm:w-32 xl:h-40 xl:w-60"
-                  src="https://www.aptechglobaltraining.com/campaign/nigeria/degree/images/about-1-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="px-3">
-                <img
-                  className="xl:w-100 h-40 w-40 animate-pulse rounded object-cover shadow-lg duration-200 ease-out sm:h-64 sm:w-64 xl:h-80"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-amqQspTVEyokbSe_bKrl1giK_KsicaaFxw&s"
-                  alt=""
-                />
               </div>
             </div>
           </div>
         </div>
       </header>
-      
+
       {/* ========================INTERNATIONAL DEGREE===================================== */}
-      <section className="mt-8">
-      <Rosa animation={"fade-up"} once>
-        <div className="mx-auto px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:py-22 my-10">
-          <div className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
-            <div></div>
-            <h2 className="font-sans mb-6  items-center text-center text-3xl font-bold leading-none tracking-tight text-gray-900 ">
-              <span className="relative inline-block">
-                <svg
-                  viewBox="0 0 52 24"
-                  fill="currentColor"
-                  className="text-blue-gray-100 absolute top-0 left-0 z-0 -mt-8 -ml-20 hidden w-32 text-[#ba5457] sm:block lg:-ml-28 lg:-mt-10 lg:w-32"
-                >
-                  <defs>
-                    <pattern
-                      id="34f481be-159a-4846-821d-9ca19fb6bcc5"
-                      x="0"
-                      y="0"
-                      width=".135"
-                      height=".30"
-                    >
-                      <circle cx="1" cy="1" r=".7" />
-                    </pattern>
-                  </defs>
-                  <rect
-                    fill="url(#34f481be-159a-4846-821d-9ca19fb6bcc5)"
-                    width="52"
-                    height="24"
-                  />
-                </svg>
-                <span className="relative">AN</span>
-              </span>{" "}
-              INTERNATIONAL DEGREE IS FOUR STEPS AWAY
-            </h2>
-            <p className="items-center text-center text-base text-gray-700">
-              Aptech has alliance with the best international Universities and
-              institutes across the globe to benefit Aptech students.{" "}
-              <a href="/about"> Learn More</a>
-            </p>
+      <section className="mt-[260px] mb-8 md:mt-[460px] lg:mt-[135px]">
+        <Rosa animation={"fade-up"} once>
+          <div className="lg:py-22 mx-auto my-10 px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
+            <div className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
+              <div></div>
+              <h2 className="font-sans my-10  items-center text-center text-3xl font-bold leading-none tracking-tight text-gray-900 ">
+                <span className="relative inline-block">
+                  <svg
+                    viewBox="0 0 52 24"
+                    fill="currentColor"
+                    className="text-blue-gray-100 absolute top-0 left-0 z-0 -mt-8 -ml-20 hidden w-32 text-[#ba5457] sm:block lg:-ml-28 lg:-mt-10 lg:w-32"
+                  >
+                    <defs>
+                      <pattern
+                        id="34f481be-159a-4846-821d-9ca19fb6bcc5"
+                        x="0"
+                        y="0"
+                        width=".135"
+                        height=".30"
+                      >
+                        <circle cx="1" cy="1" r=".7" />
+                      </pattern>
+                    </defs>
+                    <rect
+                      fill="url(#34f481be-159a-4846-821d-9ca19fb6bcc5)"
+                      width="52"
+                      height="24"
+                    />
+                  </svg>
+                  <span className="relative">AN</span>
+                </span>{" "}
+                INTERNATIONAL DEGREE IS FOUR STEPS AWAY
+              </h2>
+              <p className="items-center text-center text-base text-gray-700">
+                Aptech has alliance with the best international Universities and
+                institutes across the globe to benefit Aptech students.{" "}
+                <a href="/about"> Learn More</a>
+              </p>
+            </div>
           </div>
-        </div>
         </Rosa>
         {/* the image */}
         <div className="mx-auto px-4 pb-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8 lg:pb-8">
@@ -270,20 +270,22 @@ const Home = () => {
         <div className="row-gap-8 grid gap-12 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="mb-6 max-w-xl">
-            <Rosa animation={"fade-up"} once>
-              <h2 className="font-sans mb-6 max-w-lg text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none text-center item-center md:items-start md:text-start">
-              APTECH IKORODU- A GLOBAL LEARNING SOLUTIONS PROVIDER
-              </h2>
+              <Rosa animation={"fade-up"} once>
+                <h2 className="font-sans item-center mb-6 max-w-lg text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:items-start md:text-start">
+                  APTECH IKORODU- A GLOBAL LEARNING SOLUTIONS PROVIDER
+                </h2>
               </Rosa>
-              <p className="text-base text-gray-700 md:text-lg text-center item-center md:items-start md:text-start">
-              Are you considering a new career path or you are looking at adding a skill? Let's help you in your decision making and give options on how to reboot your career journey for success.
+              <p className="item-center text-center text-base text-gray-700 md:items-start md:text-start md:text-lg">
+                Are you considering a new career path or you are looking at
+                adding a skill? Let's help you in your decision making and give
+                options on how to reboot your career journey for success.
               </p>
             </div>
             <div className="row-gap-8 grid gap-8 sm:grid-cols-2">
               <div>
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#a02025]">
                   <svg
-                    className="text-white h-10 w-10"
+                    className="h-10 w-10 text-white"
                     stroke="currentColor"
                     viewBox="0 0 52 52"
                   >
@@ -297,16 +299,18 @@ const Home = () => {
                   </svg>
                 </div>
                 <h6 className="mb-2 font-semibold leading-5">
-                Students get Advanced Diploma in Software Engineering (ADSE)
+                  Students get Advanced Diploma in Software Engineering (ADSE)
                 </h6>
                 <p className="text-sm text-gray-900">
-                 which is valued by employers and universities worldwide. With over 30 years of expertise in IT training, aptech is sure to build careers.
+                  which is valued by employers and universities worldwide. With
+                  over 30 years of expertise in IT training, aptech is sure to
+                  build careers.
                 </p>
               </div>
               <div>
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#a02025] text-whte">
+                <div className="text-whte mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-[#a02025]">
                   <svg
-                    className="text-white  h-10 w-10"
+                    className="h-10  w-10 text-white"
                     stroke="currentColor"
                     viewBox="0 0 52 52"
                   >
@@ -320,17 +324,20 @@ const Home = () => {
                   </svg>
                 </div>
                 <h6 className="mb-2 font-semibold leading-5">
-                Online varsity is an exclusive e-learning portal 
+                  Online varsity is an exclusive e-learning portal
                 </h6>
                 <p className="text-sm text-gray-900">
-                with a 24x7 access from anywhere, any platform, any time, any place. It offers interactive tools, valuable resources, expert advice and guidance to sharpen students' skill beyond the classroom.
+                  with a 24x7 access from anywhere, any platform, any time, any
+                  place. It offers interactive tools, valuable resources, expert
+                  advice and guidance to sharpen students' skill beyond the
+                  classroom.
                 </p>
               </div>
             </div>
           </div>
           <div>
             <img
-              className=" w-full rounded shadow-lg sm:h-96  object-cover md:object-fill md:h-auto"
+              className=" w-full rounded object-cover shadow-lg  sm:h-96 md:h-auto md:object-fill"
               src={Ikorodu}
               alt="aptech ikorodu"
             />
