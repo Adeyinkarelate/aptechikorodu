@@ -91,7 +91,7 @@ const Home = () => {
             </svg>
             <img
               class="h-full w-full rounded object-cover shadow-lg lg:h-full lg:rounded-none lg:shadow-none "
-              src="http://localhost:3000/static/media/Ikorodu.7330b04809f2179b3ea5.png"
+              src={Ikorodu}
               alt=""
             />
           </div>
