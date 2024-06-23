@@ -9,6 +9,7 @@ import coursesAdseImg from "../assets/images/course-adse.jpg";
 import coursesSmartProImg from "../assets/images/course-smartpro.jpg";
 import SchoolsBanner from "../assets/images/schools-banner.png";
 import Testimonials from "../partials/Testimonials";
+import Ba from "../assets/images/ba.jpg"
 
 const popularCourses = [
   {
@@ -81,17 +82,9 @@ const Home = () => {
       <header className="mt-10 h-[650px]">
         <div class="relative flex flex-col-reverse py-16 lg:flex-col lg:pt-0 lg:pb-0 ">
           <div class="inset-y-0 top-0 right-0 z-0 mx-auto w-full max-w-xl px-4 md:px-0 lg:absolute lg:mx-0 lg:mb-0 lg:w-7/12 lg:max-w-full lg:pr-0 xl:px-0 ">
-            <svg
-              class="absolute left-0 hidden h-full -translate-x-1/2 transform text-white lg:block"
-              viewBox="0 0 100 100"
-              fill="currentColor"
-              preserveAspectRatio="none slice"
-            >
-              <path d="M50 0H100L50 100H0L50 0Z"></path>
-            </svg>
             <img
-              class="h-full w-full rounded object-cover shadow-lg lg:h-full lg:rounded-none lg:shadow-none "
-              src={Ikorodu}
+              class="h-96 md:h-full w-full rounded object-cover shadow-lg lg:h-full lg:rounded-none lg:shadow-none "
+              src={Ba}
               alt=""
             />
           </div>
@@ -142,7 +135,7 @@ const Home = () => {
       </header>
 
       {/* ========================INTERNATIONAL DEGREE===================================== */}
-      <section className="mt-[260px] mb-8 md:mt-[460px] lg:mt-[135px]">
+      <section className="mt-[260px] mb-8 md:mt-[260px] lg:mt-[135px]">
         <Rosa animation={"fade-up"} once>
           <div className="lg:py-22 mx-auto my-10 px-4 pt-8 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-8">
             <div className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-2xl">
