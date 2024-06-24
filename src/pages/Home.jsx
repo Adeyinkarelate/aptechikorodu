@@ -83,7 +83,7 @@ const Home = () => {
         <div class="relative flex flex-col-reverse py-16 lg:flex-col lg:pt-0 lg:pb-0 ">
           <div class="inset-y-0 top-0 right-0 z-0 mx-auto w-full max-w-xl px-4 md:px-0 lg:absolute lg:mx-0 lg:mb-0 lg:w-7/12 lg:max-w-full lg:pr-0 xl:px-0 ">
             <img
-              class="h-96 md:h-96 w-full rounded object-cover shadow-lg lg:h-full lg:rounded-none lg:shadow-none "
+              class="h-96 md:h-80 w-full rounded object-cover shadow-lg lg:h-full lg:rounded-none lg:shadow-none "
               src={Ba}
               alt=""
             />
